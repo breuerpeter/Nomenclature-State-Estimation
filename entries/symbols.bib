@@ -1,27 +1,35 @@
 % Encoding: UTF-8
 
+# General
+
+@symbol{vecState,
+    name = {\ensuremath{\bm{x}}},
+    description = {state vector},
+    identifier = {general}
+}
+
 # IMU
 
 @symbol{vecGyroBias,
-    name = {\ensuremath{\mathbf{b}^G}},
+    name = {\ensuremath{\bm{b}^G}},
     description = {gyroscope (ang. vel.) bias vector},
-    identifier = {visualInertialFusion}
+    identifier = {imu}
 }
 
 @symbol{vecAccelBias,
-    name = {\ensuremath{\mathbf{b}^A}},
+    name = {\ensuremath{\bm{b}^A}},
     description = {accelerometer (lin. acc.) bias vector},
-    identifier = {visualInertialFusion}
+    identifier = {imu}
 }
 
 @symbol{vecGyroNoise,
-    name = {\ensuremath{\mathbf{n}^G}},
+    name = {\ensuremath{\bm{n}^G}},
     description = {gyroscope (ang. vel.) additive zero-mean Gaussian white noise vector},
-    identifier = {visualInertialFusion}
+    identifier = {imu}
 }
 
 @symbol{vecAccelNoise,
-    name = {\ensuremath{\mathbf{n}^A}},
+    name = {\ensuremath{\bm{n}^A}},
     description = {accelerometer (lin. acc.) additive zero-mean Gaussian white noise vector},
-    identifier = {visualInertialFusion}
+    identifier = {imu}
 }
